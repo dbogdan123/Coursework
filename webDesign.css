@@ -1,0 +1,87 @@
+body{
+	min-width:900px;
+}
+
+.vegIcon{
+	width:20px;
+	height:20px;
+}
+/* style="max-width:1820px;"*/
+.previewSlideShow{
+	display:flex;
+	padding-right:5px;
+}
+
+.slideShowHdrs{
+	align-items:left;
+}
+
+.slideShowImgs, .slideShowHdrs, .slideShowTxts{
+	display:none;
+}
+
+.slideShowDesc{
+	padding-left:10px; 
+	padding-top:25px;
+}
+
+.previewSlideShow, .navButtons{
+	background-color: #90EE9E;
+}
+
+.navMain{
+	display:grid;
+	grid-template-columns: auto auto auto auto;
+	width:100%;
+	margin:5px;
+	padding-bottom: 25px;
+	grid-gap:5px;
+}
+
+.navButtons{
+	width:100%;
+	border: 1px solid black;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	cursor:pointer;
+}
+
+.navButtons:hover{
+	background-color:#64E777;
+}
+
+.previewImgs{
+	width:250px;
+	height:170px;
+	padding-right:25px;
+	padding-top:25px;
+}
+
+#intro, .navButtons, .slideShowTxts, .previewTxts, .recipeDesc, .ingredientDesc, .ingredientList{
+	font-size:22px;
+}
+
+h1, #intro, .recipeDesc{
+	text-align:center;
+}
+
+.slideShowLinks, .previewLinks{
+	text-decoration:none;
+	color:black;
+}
+
+.previewLinks:hover{
+	text-decoration:underline;
+}
+
+h1, h2, #intro, .navButtons, .slideShowTxts, .previewTxts, .previewLinks, .recipeDesc, .ingredientDesc, .ingredientList{
+	font-family:Calibri;
+}
+
+.recipeImgs{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:35%;
+}
